@@ -9,7 +9,7 @@ namespace ProceduralBasics
             // the main method is ultimately run by the "dotnet run" command.
 
             // each line of code is a "statement" ending in semicolan.
-            int x = 5; // declares variable named "x" with type "int" (integer, whole number), and 
+            //int x = 5; // declares variable named "x" with type "int" (integer, whole number), and 
                        //gives it value 5.
 
             // Datatypes
@@ -24,7 +24,7 @@ namespace ProceduralBasics
             /* True or false: 
                 bool 
             */
-            bool mathWorks = (3+3 == 6); //true
+            //bool mathWorks = (3+3 == 6); //true
             /* Text
                 string (more than one character, use double quotes)
                 char (just one character, use single quotes)
