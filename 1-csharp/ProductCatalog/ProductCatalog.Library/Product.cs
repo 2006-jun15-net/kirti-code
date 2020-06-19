@@ -1,4 +1,15 @@
-namespace ProductCatalog.App
+using System;
+
+// architectural principle
+// seperation of concern
+    // code reusability, flexibility, code reuse
+    // maintainability, testability
+
+// for projects, this kind of seperation is common:
+    // application projecy just handles user input/output
+    // various library projects handle the actual c# logic, seperated from user i/o
+
+namespace ProductCatalog.Library
 {
     // C# supports many paradigms of programing
     // above all, it's an object-oriented langauge.
@@ -8,7 +19,9 @@ namespace ProductCatalog.App
     // any restrictions or rules about its own data are behaviours.
     // "encapsulation"
 
-    class Product
+    //project is collection of classes that moves around as a whole block. 
+
+    public class Product
     {
         // an "auto-implemented property" or just  "auto-property"
         // -it is based on a hidden backing field of the type double,
@@ -22,7 +35,7 @@ namespace ProductCatalog.App
         private string _name;
 
         // "full property" -no hidden field, full control validation, etc.
-         public string Name 
+         public virtual string Name 
         {
             get { return _name; }
             set{ _name = value; }
