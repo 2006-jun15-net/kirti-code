@@ -1,7 +1,7 @@
 namespace ProductCatalog.Library
 {
     // just as class specifies requirements for the objects that are instances of that class,
-    // an interdace specifies requirements on class that mark themselves as implementation of that interface
+    // an interface specifies requirements on class that mark themselves as implementation of that interface
     
     // interfaces let us decouple code that needs functionality fromt he code that provides functionality.
 

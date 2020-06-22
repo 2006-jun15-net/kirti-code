@@ -3,7 +3,7 @@ using System;
 namespace ProductCatalog.Library
 {
     // a class without an explicitly coded constructor
-    //will have a hidden default constructor with following characteristics:
+    // will have a hidden default constructor with following characteristics:
         // public
         // take zero parameters
         // does nothing

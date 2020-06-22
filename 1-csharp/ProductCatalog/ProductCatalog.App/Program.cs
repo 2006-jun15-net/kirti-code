@@ -41,11 +41,11 @@ namespace ProductCatalog.App
                     // so it must be explicit. this line will throw an error at runtime because it really is not a ProductSorter.
             }
 
-                // ask the user if it's reverse or not
-                // if (true)
-                // {
-                //     sorterToUse.SortInReverse = true;
-                // }
+            // ask the user if it's reverse or not
+            // if (true)
+            // {
+            //     sorterToUse.SortInReverse = true;
+            // }
 
             DisplayProducts(new List<Product> { product }, sorterToUse);
 
