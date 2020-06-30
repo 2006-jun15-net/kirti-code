@@ -1,0 +1,32 @@
+main 
+{
+    border-style: solid;
+    border-color: brown;
+    padding: 10%;
+    background-color: cornsilk;
+}
+
+img
+{
+    border-style: solid;
+    border-width: thick;
+    border-color: orange;
+}
+
+div
+{
+    width: 50%; 
+    overflow: auto; 
+    height: 200px;
+    background-color: yellow;
+    border-style: dashed;
+    border-color: orange;
+    border-width: thick;
+    padding: 2%;
+}
+
+::first-line
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
