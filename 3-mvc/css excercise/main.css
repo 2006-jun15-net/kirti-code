@@ -2,6 +2,7 @@ main
 {
     border-style: solid;
     border-color: brown;
+    border-width: thick;
     padding: 10%;
     background-color: cornsilk;
 }
